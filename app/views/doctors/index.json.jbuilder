@@ -1,0 +1,1 @@
+json.doctors @doctors, partial: 'partials/doctor', as: :doctor
