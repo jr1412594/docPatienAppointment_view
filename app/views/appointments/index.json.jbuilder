@@ -1,2 +1,2 @@
-json.appointments @appointments, partial: 'indicies/appointment', as: :appointment
+json.appointments @appointments, partial: 'partials/appointment', as: :appointment
 

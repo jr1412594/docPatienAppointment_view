@@ -1,12 +1,10 @@
 class AppointmentsController < ApplicationController
     def index
         @appointments = Appointment.all 
-        # render json: @appointments
     end
 
     def show
         @appointment = Appointment.find(params[:id])
-        render ('appointments/show')
     end
 
     def create

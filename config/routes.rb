@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  get 'app/test'
   resources :doctors
   resources :appointments
   resources :patients
